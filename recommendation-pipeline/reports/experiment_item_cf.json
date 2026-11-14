@@ -1,0 +1,22 @@
+{
+  "run_id": "20261114T073135Z",
+  "model": "item_cf",
+  "parameters": {
+    "k": 5,
+    "seed": 529,
+    "split": "per-user chronological 80/20"
+  },
+  "metrics": {
+    "precision_at_5": 0.17959183673469387,
+    "recall_at_5": 0.379421768707483,
+    "ndcg_at_5": 0.31159056007201524,
+    "coverage": 1.0,
+    "diversity": 0.6806122448979592,
+    "evaluated_users": 98
+  },
+  "artifacts": [
+    "reports/model_comparison.csv",
+    "reports/recommendations.csv",
+    "models/item_cf.npz"
+  ]
+}

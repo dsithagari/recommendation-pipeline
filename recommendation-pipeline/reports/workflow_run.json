@@ -1,0 +1,41 @@
+{
+  "status": "success",
+  "completed_at_utc": "2026-11-14T07:31:35.780188+00:00",
+  "stages": [
+    {
+      "stage": "ingestion",
+      "status": "success",
+      "elapsed_seconds": 0.067
+    },
+    {
+      "stage": "validation",
+      "status": "success",
+      "elapsed_seconds": 1.454
+    },
+    {
+      "stage": "preparation",
+      "status": "success",
+      "elapsed_seconds": 0.03
+    },
+    {
+      "stage": "transformation",
+      "status": "success",
+      "elapsed_seconds": 0.017
+    },
+    {
+      "stage": "features",
+      "status": "success",
+      "elapsed_seconds": 0.025
+    },
+    {
+      "stage": "training",
+      "status": "success",
+      "elapsed_seconds": 0.013
+    },
+    {
+      "stage": "evaluation",
+      "status": "success",
+      "elapsed_seconds": 0.623
+    }
+  ]
+}

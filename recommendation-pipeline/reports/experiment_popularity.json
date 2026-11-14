@@ -1,0 +1,22 @@
+{
+  "run_id": "20261114T073135Z",
+  "model": "popularity",
+  "parameters": {
+    "k": 5,
+    "seed": 529,
+    "split": "per-user chronological 80/20"
+  },
+  "metrics": {
+    "precision_at_5": 0.046938775510204075,
+    "recall_at_5": 0.10374149659863945,
+    "ndcg_at_5": 0.07364212415597987,
+    "coverage": 0.175,
+    "diversity": 0.8806122448979592,
+    "evaluated_users": 98
+  },
+  "artifacts": [
+    "reports/model_comparison.csv",
+    "reports/recommendations.csv",
+    "models/popularity.csv"
+  ]
+}

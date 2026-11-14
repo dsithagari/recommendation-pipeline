@@ -1,0 +1,7 @@
+{
+  "strategy": "per-user chronological 80/20",
+  "train_rows": 2800,
+  "test_rows": 800,
+  "seed": 529,
+  "cutoff_rule": "floor(0.8 * interactions per user)"
+}

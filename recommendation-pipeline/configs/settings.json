@@ -1,0 +1,1 @@
+{"seed":529,"k":5,"data_source":"documented deterministic synthetic movie interactions","split":"per-user chronological 80/20","positive_rating_threshold":4}

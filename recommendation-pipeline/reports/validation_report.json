@@ -1,0 +1,18 @@
+{
+  "total_records": 3607,
+  "valid_records": 3600,
+  "quarantined_records": 7,
+  "error_counts": {
+    "duplicate_record": 1,
+    "invalid_rating": 2,
+    "invalid_timestamp": 1,
+    "invalid_user_id_type": 1,
+    "missing_rating": 1,
+    "unknown_item": 1,
+    "unknown_user": 1
+  },
+  "user_duplicate_ids": 0,
+  "item_duplicate_ids": 0,
+  "user_missing_cells": 0,
+  "item_missing_cells": 0
+}

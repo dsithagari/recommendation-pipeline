@@ -1,0 +1,7 @@
+{
+  "baseline": "weighted popularity: count * mean_rating/5",
+  "personalized": "item-item cosine similarity on binary training interactions, scored by similarity-weighted observed rating",
+  "k": 5,
+  "seed": 529,
+  "number_of_items": 80
+}
